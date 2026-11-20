@@ -22,3 +22,4 @@ Claude (Anthropic), en deux conversations aux rôles séparés : l'une produit l
 | Date | Ce que l'IA a produit | Ce que le développeur a décidé, corrigé ou refusé |
 |---|---|---|
 | 20/11 | Squelette du dépôt modèle, configuration, documentation | Choix de l'organisation GitHub, des noms, de la visibilité publique, de Scalingo ; relecture de la configuration |
+| 20/11 | Contrôles automatiques, filets des tests système, mise à jour des actions GitHub | Choix de la configuration RuboCop officielle de Rails, sans rien du template Le Wagon ; liste des tests à valider ensemble |
