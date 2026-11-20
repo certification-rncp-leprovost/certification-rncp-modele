@@ -1,0 +1,14 @@
+fr:
+  app:
+    name: "Certification RNCP"
+    skip_link: "Aller au contenu"
+    main_nav: "Navigation principale"
+    sign_in: "Se connecter"
+    sign_up: "Créer un compte"
+    sign_out: "Se déconnecter"
+  pages:
+    home:
+      title: "Accueil"
+      lead: "Application de la certification RNCP39261."
+  pundit:
+    not_authorized: "Vous n'avez pas le droit d'effectuer cette action."

@@ -1,0 +1,16 @@
+<%# Barre de navigation : lien d'évitement pour le clavier (accessibilité WCAG), puis menu. %>
+<a class="visually-hidden-focusable" href="#contenu"><%= t("app.skip_link") %></a>
+<nav class="navbar navbar-expand bg-body-tertiary mb-4" aria-label="<%= t("app.main_nav") %>">
+  <div class="container">
+    <%= link_to t("app.name"), root_path, class: "navbar-brand" %>
+    <ul class="navbar-nav ms-auto">
+      <% if user_signed_in? %>
+        <li class="nav-item"><span class="nav-link"><%= current_user.email %></span></li>
+        <li class="nav-item"><%= button_to t("app.sign_out"), destroy_user_session_path, method: :delete, class: "btn btn-link nav-link" %></li>
+      <% else %>
+        <li class="nav-item"><%= link_to t("app.sign_in"), new_user_session_path, class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to t("app.sign_up"), new_user_registration_path, class: "nav-link" %></li>
+      <% end %>
+    </ul>
+  </div>
+</nav>

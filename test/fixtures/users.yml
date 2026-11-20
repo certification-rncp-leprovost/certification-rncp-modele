@@ -1,0 +1,8 @@
+# Comptes de test. Mot de passe commun : "motdepasse123" (uniquement en test).
+alice:
+  email: alice@example.com
+  encrypted_password: <%= Devise::Encryptor.digest(User, "motdepasse123") %>
+
+bob:
+  email: bob@example.com
+  encrypted_password: <%= Devise::Encryptor.digest(User, "motdepasse123") %>

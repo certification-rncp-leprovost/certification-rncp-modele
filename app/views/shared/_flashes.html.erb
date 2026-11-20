@@ -1,0 +1,6 @@
+<%# Messages de retour (succès, erreur). role="status" : lus par les lecteurs d'écran. %>
+<% flash.each do |type, message| %>
+  <div class="alert <%= type.to_s == "notice" ? "alert-success" : "alert-danger" %>" role="status">
+    <%= message %>
+  </div>
+<% end %>
