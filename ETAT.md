@@ -1,4 +1,4 @@
-# ÉTAT — Certification RNCP — mis à jour le 20/11 10:30
+# ÉTAT — Certification RNCP — mis à jour le 20/11 11:40
 
 ## Épreuve en cours
 Aucune : dépôt modèle, préparation.
@@ -11,6 +11,7 @@ Aucune : dépôt modèle, préparation.
 - Production prévue sur une seule base (Scalingo).
 - Documentation : décisions 0001 à 0004, procédures, gabarits de livrables.
 - GitHub : dépôt public marqué « modèle », branches develop et staging, `main` protégée (PR + contrôles test, lint, scan_ruby), tableau « Certification RNCP - Kanban » de l'organisation.
+- Contrôles automatiques : `bin/controles` (CI et `bin/ci`), `bin/recette` (journal des recettes), test système de connexion avec filets (exception serveur, console JS).
 - Procédure du jour J : `docs/procedures/creer-le-depot-d-examen.md`.
 
 ## Décisions prises
@@ -18,6 +19,7 @@ Aucune : dépôt modèle, préparation.
 - 0002 Une seule base en production
 - 0003 Sécurité fermée par défaut
 - 0004 Branches develop / staging / main
+- 0005 Contrôles automatiques à chaque push
 
 ## En cours / prochaine étape
 - Tester un premier déploiement Scalingo depuis le modèle.
