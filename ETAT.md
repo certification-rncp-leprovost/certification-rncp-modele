@@ -1,4 +1,4 @@
-# ÉTAT — Certification RNCP — mis à jour le 20/11 11:40
+# ÉTAT — Certification RNCP — mis à jour le 20/11 12:30
 
 ## Épreuve en cours
 Aucune : dépôt modèle, préparation.
@@ -6,7 +6,8 @@ Aucune : dépôt modèle, préparation.
 ## Fait (dernier commit : voir `git log -1`)
 - Application Rails 8.1 vierge : PostgreSQL, Devise (User), Pundit, Simple Form, Bootstrap, français.
 - Page d'accueil publique, tout le reste fermé par défaut (connexion + policy obligatoires).
-- 5 tests verts (accueil, connexion, refus d'un mauvais mot de passe).
+- 13 tests verts : modèle User, accueil, connexion, inscription valide et refusée, accès protégé ; 1 test système (connexion).
+- Grille de tests validée : `docs/procedures/grille-de-tests.md` (gabarits par niveau).
 - CI GitHub Actions : Brakeman, bundler-audit, RuboCop, tests, tests système.
 - Production prévue sur une seule base (Scalingo).
 - Documentation : décisions 0001 à 0004, procédures, gabarits de livrables.

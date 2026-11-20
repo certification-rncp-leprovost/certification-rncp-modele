@@ -48,5 +48,6 @@ Procédure détaillée : [`docs/collaboration.md`](docs/collaboration.md).
 - [`docs/decisions/`](docs/decisions/) : le pourquoi de chaque choix structurant
 - [`docs/explications/`](docs/explications/) : le code expliqué, étape par étape
 - [`docs/usage-ia.md`](docs/usage-ia.md) : comment l'assistant IA a été utilisé et contrôlé
+- [`docs/procedures/grille-de-tests.md`](docs/procedures/grille-de-tests.md) : les tests minimum par ressource, avec gabarits
 - [`docs/procedures/`](docs/procedures/) : créer le dépôt d'examen, déploiement, retour arrière, sauvegarde et restauration
 - [`docs/livrables/`](docs/livrables/) : sources des livrables de chaque bloc
