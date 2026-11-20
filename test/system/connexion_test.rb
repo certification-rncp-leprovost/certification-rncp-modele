@@ -8,7 +8,7 @@ class ConnexionTest < ApplicationSystemTestCase
 
     fill_in "Email", with: "alice@example.com"
     fill_in "Mot de passe", with: "motdepasse123"
-    click_button "Se connecter" # le bouton du formulaire, pas le lien du menu
+    click_button "Connexion" # le bouton du formulaire Devise
 
     assert_text "alice@example.com"
   end
