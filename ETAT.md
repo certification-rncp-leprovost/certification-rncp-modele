@@ -10,6 +10,8 @@ Aucune : dépôt modèle, préparation.
 - CI GitHub Actions : Brakeman, bundler-audit, RuboCop, tests, tests système.
 - Production prévue sur une seule base (Scalingo).
 - Documentation : décisions 0001 à 0004, procédures, gabarits de livrables.
+- GitHub : dépôt public marqué « modèle », branches develop et staging, `main` protégée (PR + contrôles test, lint, scan_ruby), tableau « Certification RNCP - Kanban » de l'organisation.
+- Procédure du jour J : `docs/procedures/creer-le-depot-d-examen.md`.
 
 ## Décisions prises
 - 0001 Socle technique Rails 8 + PostgreSQL + Devise + Pundit
@@ -18,7 +20,6 @@ Aucune : dépôt modèle, préparation.
 - 0004 Branches develop / staging / main
 
 ## En cours / prochaine étape
-- Protéger `main`, créer `develop` et `staging`, tableau Kanban.
 - Tester un premier déploiement Scalingo depuis le modèle.
 
 ## Problèmes ouverts
